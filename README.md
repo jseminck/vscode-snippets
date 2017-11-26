@@ -1,2 +1,3 @@
 # vscode-snippets
-My list of VSCode Snippets
+
+My personal list of VSCode snippets. This is a WIP!
