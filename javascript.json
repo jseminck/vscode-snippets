@@ -1,0 +1,75 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+    "React": {
+        "prefix": "react",
+        "body": [
+            "import React, { PureComponent } from 'react'",
+            "import PropTypes from 'prop-types'",
+            "",
+			"export default class MyComponent extends React.Component { ",
+			"  static propTypes = {}",
+			"}"
+        ],
+        "description": "For Loop"
+	},
+	"Import PropTypes": {
+		"prefix": "importProp",
+		"body": [
+			"import PropTypes from 'prop-types'"
+		]
+	},
+	"Import React-Redux": {
+		"prefix": "importReactRedux",
+		"body": [
+			"import { connect } from 'react-redux'"
+		]
+	},
+	"PropTypes function": {
+		"prefix": "propFunc",
+		"body": [
+			"PropTypes.func.isRequired"
+		]
+	},
+	"PropTypes string": {
+		"prefix": "propString",
+		"body": [
+			"PropTypes.string.isRequired"
+		]
+	},
+	"PropTypes bool": {
+		"prefix": "propBool",
+		"body": [
+			"PropTypes.bool"
+		]
+	},
+	"PropTypes number": {
+		"prefix": "propNumber",
+		"body": [
+			"PropTypes.number.isRequired"
+		]
+	},
+	"Create @connect": {
+		"prefix": "@connect",
+		"body": [
+			"@connect(",
+			"  state => ({",
+			"    $1",
+			"  })",
+			"  { $2 }",
+			")"
+		]
+	},
+	"Destructure from this.props": {
+		"prefix": "destructProps",
+		"body": [
+			"const { $1 } = this.props;"
+		]
+	}
+}
