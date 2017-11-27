@@ -31,6 +31,18 @@
 			"import { connect } from 'react-redux'"
 		]
 	},
+	"PropTypes object": {
+		"prefix": "propObj",
+		"body": [
+			"PropTypes.object.isRequired"
+		]
+	},
+	"PropTypes array": {
+		"prefix": "propArray",
+		"body": [
+			"PropTypes.array.isRequired"
+		]
+	},
 	"PropTypes function": {
 		"prefix": "propFunc",
 		"body": [
